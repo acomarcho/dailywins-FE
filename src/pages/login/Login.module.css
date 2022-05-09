@@ -1,0 +1,81 @@
+.appContainer {
+  max-width: 576px;
+  background-color: var(--bg-primary);
+  margin: 0 auto;
+  padding: 30px;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 100px 126px rgba(0, 0, 0, 0.15), 0px 41.7776px 52.6398px rgba(0, 0, 0, 0.107828), 0px 22.3363px 28.1437px rgba(0, 0, 0, 0.0894161), 0px 12.5216px 15.7772px rgba(0, 0, 0, 0.075), 0px 6.6501px 8.37913px rgba(0, 0, 0, 0.0605839), 0px 2.76726px 3.48674px rgba(0, 0, 0, 0.0421718);
+}
+
+.main {
+  width: 100%;
+}
+
+.heading {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logInText {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+.formContainer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formLabel {
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.formInput {
+  padding: 12px 32px;
+  border-radius: 12px;
+  border: 2px solid var(--secondary-color);
+  background: none;
+  color: var(--white);
+  width: 100%;
+}
+
+::-ms-reveal {
+  filter: invert(100%);
+}
+
+.button {
+  padding: 12px 32px;
+  background: var(--bg-primary-btn);
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  color: var(--white);
+  font-size: 12px;
+  transition: all 0.3s linear;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.label {
+  color: var(--white);
+  font-size: 12px;
+  margin-top: 9px;
+}
+
+.register {
+  color: var(--blueberry);
+  text-decoration: none;
+  font-size: 12px;
+}
